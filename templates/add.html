@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang = "en">
+   <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>add</title>
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css">
+
+   </head>
+   
+   <body>
+      <div id="root">
+         <section class="hero is-info">
+            <div class="hero-body">
+              <div class="container">
+                <h1 class="title">
+                  ADD
+                </h1>
+              </div>
+            </div>
+         </section>
+         <div class="container">
+            <form method='POST'>
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name"><br>
+                <label for="pop">Population:</label><br>
+                <input type="number" id="pop" name="pop"><br>
+                <label for="cap">Capital:</label><br>
+                <input type="text" id="cap" name="cap"><br>
+                <label for="dem">Is this country a democracy? (yes/no):</label><br>
+                <input type="text" id="dem" name="dem"><br>
+                <label for="map">Please paste the link to an image of a map of this country:</label><br>
+                <input type="text" id="map" name="map"><br>
+                <label for="flag">Please paste the link to an image of a flag of this country:</label><br>
+                <input type="text" id="flag" name="flag"><br>
+                <input type="submit" class="button">
+                <a class="button" href="/">
+                  Cancel
+               </a>
+            </form>
+         </div>
+      </div>
+      
+   </body>
+</html>
